@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "express": "~4.2.0",
@@ -19,6 +21,8 @@
     "coffee-script": "*",
     "less": "*",
     "express-session": "^1.6.1",
-    "mocha": "^1.20.1"
-  }
+    "mocha": "^1.20.1",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
