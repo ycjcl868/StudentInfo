@@ -19,6 +19,6 @@
     "coffee-script": "*",
     "less": "*",
     "express-session": "^1.6.1",
-    "mocha": "^1.20.1"
+    "mocha": "^6.0.0"
   }
 }
